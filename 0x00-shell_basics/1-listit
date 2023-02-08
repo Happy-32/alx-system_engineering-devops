@@ -1,4 +1,2 @@
 #!/bin/bash
-for d in */; do
-	echo $(ls)
-done
+echo $(ls -1)
