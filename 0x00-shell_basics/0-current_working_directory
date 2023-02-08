@@ -1,2 +1,2 @@
 #!/bin/bash
-Dir_path=$(cd $(dirname "${BASH_SOURCE:-$0}") && pwd)
+echo $(realpath $(dirname pwd.sh))
